@@ -1,0 +1,8 @@
+version: '1'
+services:
+  u-n-fContainer:
+    image: subaek0704/u-n-f #tag생략하면 자동으로 latest
+    ports:
+    - "80:80"
+    volumes: #{호스트디렉}:{컨테이너디렉}
+    - ./app:/app
