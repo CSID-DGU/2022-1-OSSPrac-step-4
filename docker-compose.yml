@@ -4,7 +4,7 @@ services:
   ex3c:
     container_name: "ex3c"
     build: .
-    image: "test3prac"
+    image: harriet99/test3prac
     ports:
       - "80:80"
   production:
