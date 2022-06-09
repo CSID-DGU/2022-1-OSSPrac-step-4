@@ -5,7 +5,7 @@ services:
     container_name: "ex3c"
     build: .
     image: harriet99/test3prac
-    ports:
-      - "80:80"
   production:
     image: harriet99/test3prac:4.0
+    ports:
+      - "80:80"
